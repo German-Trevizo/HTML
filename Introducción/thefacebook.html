@@ -1,58 +1,58 @@
-<!DOCTYPE html>
-<html lang="es">
-    <head>
-        <title>The Facebook</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    
-    <body>
-        <table border="1px" width="100%" height="600px">
-            <tbody>
-                <tr height="100px" bgcolor="#2e4588">
-                    <td width="500px">
-                        <h1>
-                            <img src="./Imagenes/fondo.PNG" width="500px" height="100px">
+<!DOCTYPE html> <!--'Establecemos el tipo de documento a desarrollar que en este caso sera Html'-->
+<html lang="es"> <!--'Establecemos el idioma "langUAGE" español'-->
+    <head> <!--'Empezamos la configuracion del proyecto'-->
+        <title>The Facebook</title> <!--'Titulo de la pagina que sale en la pestaña'-->
+        <meta charset="UTF-8"> <!--'Señalamos la region por asi decirlo -- permite el reconocimiento de caracteres especiales como ñ y acentos'-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--'Aun no se bien que es eso'-->
+    </head> <!--'Terminamos la configuracion del proyecto'-->
 
+    <!--'Trabajaremos con una pagina web diseñada y elaborada atravez de tablas que ya no se usa por la hoja de esilos en cascado 
+        pero nos servira como conocimiento de los fundamentos de una pagina web en sus origenes'-->
 
-                        </h1>
-                    </td>
-                    <td>
-                        <h1>
-                            <span>[The FaceBook]</span>
-                            <br>
-                            <a href="http://google.com" target="_blank">Google.com</a>
-                            <a href="./contacto.html">contacto</a>
-                            <a href="./aboaut.html"></a>
-                        </h1>
-                    </td>
-
-                </tr>
-                <tr>
-                    <td width="200px">
-                        <input type="text" placeholder="escribe tu mensaje">
-                        <br>
-                        <label >quick search</label>
-                        <button>go</button>
-                        <hr> <!--'Separador'-->
-                        <a href="#">hola</a>
-                        <h2>The FaceBook</h2>
-                        <p>hola asasdfasdfsdf</p>
-                        <p><b>Lorem</b> ipsum dolor sit amet consectetur <i>adipisicing</i> elit. Iusto ducimus quas earum dolorum quaerat tempora fugit eveniet fugiat nobis maiores excepturi quia iure molestiae, expedita dolores cum delectus nulla eum?</p>
-                        <blockquote>"La toalla del mojado" franki rivers</blockquote>
-                        <ul>
-                            <li>Lista 1</li>
+    <body> <!--'Comenzamos la programacion de la pagina con todo los items visibles y diseño de los mismos'-->
+        <table border="1px" width="100%" height="600px"> <!--'Creamos una tabla dandole bordes y dimenciones'-->
+            <tbody> <!--'Al igual que la pagina establecemos un Head o un Body y en este caso en el body agregamos '-->
+                <tr height="100px" bgcolor="#2e4588"> <!--'Establecemos una fila en la tabla le damos dimensiones y colores'--> <!--'Background "bg" color'-->
+                    <td width="500px"> <!--'Establecemos una columna y le damos dimensiocnes'-->
+                         <!--'Con el atributo colspan podemos juntar 2 columnas '-->
+                        <h1> <!--'Abrimos un titulo de prioridad 1' sirve para el SEO-->
+                            <img src="./Imagenes/fondo.PNG" width="500px" height="100px"> <!--'Agregamos una imagen y le damos dimensiones'-->
+                        </h1> <!--'Cerramos titulo'-->
+                    </td><!--'Cerramos columna'-->
+                    <td><!--'Abrimos otra columna en la misma fila'-->
+                        <h1> <!--'Abrimos un tutilo de prioridad 1 sirve para el SEO'-->
+                            <span>[The FaceBook]</span> <!--'Sirve para poner texto'-->
+                            <br><!--'Salto de linea'-->
+                            <a href="http://google.com" target="_blank">Google.com</a> <!--'hacemos un hipervinvulo externo con google'-->
+                            <a href="./contacto.html">contacto</a> <!--'hipervinculo interno a otra pagina llamada contacto.html'-->
+                            <a href="./about.html"></a> <!--'otr hipervinculo interno a about'-->
+                        </h1> <!--'cerramos el titulo'-->
+                    </td> <!--'Cerramos la columna'-->
+                </tr> <!--'cerramos la fila'-->
+                <tr><!--'Abrimos otra fila '-->
+                    <td width="200px"> <!--'en la fila agregamos una columna'-->
+                        <input type="text" placeholder="escribe tu mensaje"><!--'Agregamos un item un tipotexto o mejor conocido como Textarea'-->
+                        <br><!--'salto de linea'-->
+                        <label >quick search</label> <!--'creamos etiqueta con quick search de texto'-->
+                        <button>go</button> <!--'Agregamos un boton con text en el'-->
+                        <hr> <!--'Separador'--> <!--'Crea como una linea'-->
+                        <a href="#">hola</a><!--'hipervinculo a ningun lado con hola de texto'-->
+                        <h2>The FaceBook</h2> <!--'Etiqueta de titulo con prioridad nivel 2'-->
+                        <p>hola asasdfasdfsdf</p> <!--'etiqueta para parrafo'-->
+                        <p><b>Lorem</b><!--Etiqueta para negritas--> ipsum dolor sit amet consectetur <i>adipisicing</i> <!--Etiqueta para cursiva-->elit. Iusto ducimus quas earum dolorum quaerat tempora fugit eveniet fugiat nobis maiores excepturi quia iure molestiae, expedita dolores cum delectus nulla eum?</p>
+                        <blockquote>"La toalla del mojado" franki rivers</blockquote><!--'etiqueta para citar'-->
+                        <ul><!--'Listas desorganizadas'-->
+                            <li>Lista 1</li> <!--'items de la lista'-->
                             <li>Lista 2</li>
-                        </ul>
-                        <ol>
-                            <li>Lista 1</li>
-                            <li>Lista 2</li>
-                        </ol>    
-                    </td>
-                    <td>Col 2</td>
-                </tr>
-            </tbody>
-        </table>
-
-    </body>
-</html>
+                        </ul><!--'Cerramos la lista'-->
+                        <ol> <!--'abrimos lista organizada arroja los items enumerados'-->
+                            <li>Lista 1</li> <!--'Items de la lista'-->
+                            <li>Lista 2</li> 
+                        </ol> <!--'Cerramos lista organizada'-->
+                    </td> <!--'Cerramos columna 1 en fila 2 '-->
+                    <td>Col 2</td> <!--'abrimos y cerramos columna 2 en fila 2'-->
+                </tr> <!--'Cerramos fila'-->
+            </tbody> <!--'Cerramos configuracion del cuerpo de la tabla'-->
+        </table> <!--'Cerramos la configuraccion de toda la tabla'-->
+    </body> <!--'Cerramos configuracion del cuerpo de la pagina web'-->
+</html> <!--'Cerramos configuracion de toda la pagina web'-->
