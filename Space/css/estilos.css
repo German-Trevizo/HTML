@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    overflow: hidden;
+    background-image: url(../img/fondo.jpg);
+    animation: animacion 40s infinite;
+}
+
+@keyframes animacion{
+    0%{
+        background-position: 0% 0%;
+    }
+
+    0%{
+        background-position: 100% 5%;
+    }
+
+    0%{
+        background-position: 1% 50%;
+    }
+
+
+
+/*from {
+    background-position: 0% 0%;
+
+}
+
+to{
+    background-position: 100% 100%;
+
+}
+
+
+
+*/
+
+
+
+
+}
+
+
+
+#btn{
+    display: block;
+    position: fixed;
+    top: 49%;
+    left: calc(50% - 75px);
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border: 1px solid #1d1d1d;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    line-height: 3;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 1s ease-in all;
+} 
+
+#btn:hover{
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 0%;
+    color: black    ;
+    transform: scale(1.2);
+}
+
+#mercurio{
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    animation: aniMer 40s infinite ease-out;
+}
+
+#venus{
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    animation: aniVen 160s infinite ease-out;
+}
+
+@keyframes aniMer{
+    from{
+        top: 0px;
+        left: 0px;
+        transform: rotate(0deg);
+    }
+    to{
+        top: 100%;
+        left: 100%;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes aniVen{
+    from{
+        top: 0px;
+        left: 0px;
+        transform: rotate(0deg);
+    }
+    to{
+        top: 100%;
+        left: 100%;
+        transform: rotate(360deg);
+    }
+}
