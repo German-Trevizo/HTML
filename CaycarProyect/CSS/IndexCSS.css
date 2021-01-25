@@ -1,0 +1,408 @@
+*{
+    scroll-behavior: smooth;
+    scroll-margin: 50px;
+}
+
+body {
+    font-family: Georgia, Times New Roman, Times, serif;
+    font-size: 1.3rem;
+    line-height: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+   
+}
+
+    .header a {
+        color: white;
+        text-decoration: none;
+    
+    }
+
+
+
+.container{
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 85%;
+    max-width: 850px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.menu-icon{
+display: none;
+}
+
+
+
+
+.navigation{
+margin: 0;
+}
+    .navigation ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+        .navigation ul li {
+            float: left;
+        }
+    
+            .navigation ul li a{
+                padding: 0.5rem 1.5rem;
+                transition: all 0.8s linear;
+                border-radius: 20px;
+                margin-bottom: 25px;
+            }
+        
+                .navigation ul li a:hover {
+                    background: #000000 ;
+                }
+
+/*BOTON DE WHATS APP*/               
+#iconowp{
+    display: flex;
+    position: fixed;
+    width: 75px;
+    height: 75px;   
+    right: 15px;
+    bottom: 15px;
+}
+
+/*BOTONES DE LOS SECTIOS O SERVICIOS*/
+.btn > a {
+    padding: 0.5rem 1rem;
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+} 
+    
+    .btn > a:hover{
+        background: rgba(0, 0, 0, 0.9);
+    }
+
+/*INICIO DE PANTALLA*/
+#fondo_inicio{
+    display: flex;
+    background-image: url(../img/Ajustadas/Roco_en_el_cerro.jpg);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    color: white;
+}    
+
+.inicio{
+    width: 50%;
+    height: 300px;
+    margin-top: 200px;
+    text-align: center;
+}
+    .inicio #titulo_inicio{
+        font-size: 50px; 
+    }
+
+    .inicio > #contenido_inicio{
+        font-size:  30px;
+        margin: 10px;
+    }
+
+/*SECTION INTERNET*/
+#fondo_servicio_int{
+    display: block ;
+    background-image: url(../img/Ajustadas/servicio_internet.jpg);
+    background-size: cover;
+    height: 800px;
+    color: white;
+} 
+    #fondo_servicio_int > #h1 {
+        display: block;
+        text-align: center;
+        line-height: 70px;
+        font-size: 40px;
+        height: 200px;
+        
+    }   
+
+    #fondo_servicio_int > #h1 > h1 {
+        margin: 0;
+        padding-top: 125px;   
+    }   
+    
+    .contenedor_body{
+        display: flex;
+        margin: 5;    
+    }
+
+        #caja1_int{
+            width: 50%;
+            height: 300px;
+            margin-top: 150px;
+            text-align: center;
+        }
+
+         #caja2_int{
+            width: 50%;
+            height: 300px;
+            margin-top: 50px;
+            text-align: center;
+        }
+        
+            #caja2_int > #titulo_servicio_int{
+                font-size: 50px;
+            }
+        
+            #caja2_int > #contenido_servicio_int{
+                font-size:  30px;
+                margin: 10px;        
+            }
+
+/*SECTION ALARMAS DE ASALTO*/
+#fondo_servicio_alarm{
+    display: flex ;
+    background-image: url(../img/Ajustadas/servicio_alarmas.jpg);
+    background-size: cover;
+    height: 800px;
+    color: white;
+}
+
+#fondo_servicio_alarm > .inicio{
+    margin: 15px;
+    margin-top: 150px;
+}
+
+    .inicio #titulo_alarm{
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .inicio > #contenido_alarm{
+        font-size:  30px;
+        margin: 10px;
+    }
+
+
+
+
+#fondo_servicio_cctv{
+    display: flex ;
+    background-image: url(../img/Ajustadas/servicio_cctv.jpg);
+    background-size: cover;
+    height: 800px;
+    color: white;
+    }
+
+    #caja1_cctv{
+        width: 50%;
+        height: 300px;
+        margin-top: 150px;
+        text-align: center;
+    }
+
+     #caja2_cctv{
+        width: 50%;
+        height: 300px;
+        margin-top: 50px;
+        text-align: center;
+    }
+        
+        #caja2_cctv{
+            margin-top: 150px;
+        }
+
+        #caja2_cctv > #titulo_servicio_cctv{
+            font-size: 50px;
+        }
+
+        #caja2_cctv > #contenido_servicio_cctv{
+            font-size:  30px;
+            margin: 10px;
+        }
+
+
+
+
+                    
+#fondo_servicio_radio{
+    display: flex ;
+    background-image: url(../img/Ajustadas/servicio_radios.jpg);
+    background-size: cover;
+    height: 800px;
+    color: white;
+}
+
+#fondo_servicio_radio > .inicio{
+    margin: 15px;
+    margin-top: 150px;
+    margin-bottom: 0px;
+
+}
+
+    .inicio #titulo_radio{
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .inicio > #contenido_radio{
+        font-size:  30px;
+        margin: 10px;
+    }
+
+
+
+
+#fondo_servicio_about{
+    display: flex ;
+    background-image: url(../img/Ajustadas/About_us.jpg);
+    background-size: cover;
+    height: 800px;
+    color: white;
+    }
+
+    #caja1_about{
+        width: 50%;
+        height: 300px;
+        margin-top: 150px;
+        text-align: center;
+    }
+
+     #caja2_about{
+        width: 50%;
+        height: 300px;
+        margin-top: 50px;
+        text-align: center;
+    }
+        
+        #caja2_about{
+            margin-top: 50px;
+        }
+
+        #caja2_about > #titulo_servicio_about{
+            line-height: 60px;
+            font-size: 40px;
+        }
+
+        #caja2_about > #contenido_servicio_about{
+            font-size:  30px;
+            margin: 10px;
+        }
+
+
+
+
+    
+
+
+.footer{
+    margin: 0;
+    height: 150px;
+    background:     rgb(31, 31, 31);
+    text-align: center;
+    
+}
+
+/*Responsive design tablet*/
+@media only screen and (max-width: 1200px){
+
+.inicio{
+    width: 600px;
+}
+
+
+}
+
+/*Responsive design Smarthphone*/
+@media only screen and (max-width: 768px){
+.container{
+    height: 100px;
+}
+
+.menu-icon{
+    display: block;
+    padding: 0.5rem 1rem;
+    
+}
+    .menu-icon img{
+        border-radius: 30px;
+    }
+
+    .menu-icon img:hover{
+        background-color: #4f4f4f;
+    }
+
+.responsivecel{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+      
+}
+
+.navigation{
+    display: none;
+}    
+
+  
+h2{
+    font-size: 50px;  
+}
+
+.inicio{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#fondo_servicio_int h1{
+    font-size: 50px; 
+    line-height: 50px;
+ }
+ 
+#caja1_int{
+   display: none; 
+}
+
+#caja2_int{
+    width: 100%;
+} 
+
+#caja1_cctv{
+    display: none; 
+ }
+ 
+ #caja2_cctv{
+     width: 100%;
+ } 
+ 
+
+ #caja1_about{
+    display: none; 
+ }
+ 
+ #caja2_about{
+     width: 100%;
+ } 
+
+
+}
