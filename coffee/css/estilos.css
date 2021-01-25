@@ -30,6 +30,7 @@ header{
     border-bottom: 1px solid #c1c1c1;
     width: 100%;
     background-color: white;
+    z-index: 5;
 }
 
 header > #logo{
@@ -106,6 +107,7 @@ section#main .bola img{
     margin-top: 100px;
     margin-left: 80px;
     transform: rotate(-30deg);
+   
 
 }
 
@@ -186,4 +188,8 @@ footer{
     height: 70px;
     background-color: #19a49c;
     color: white;
+}
+
+#menu{
+    display: none;
 }
